@@ -1,0 +1,19 @@
+
+*.csv
+__pycache__/
+tests/__pycache__/test_PL_ETL.cpython-313.pyc
+*.py[cod]
+venv/
+env/
+*.egg-info/
+dist/
+build/
+*.log
+*.html
+# Ignore Python compiled files
+*.pyc
+.DS_Store
+Thumbs.db
+*.env
+.vscode/
+*.pyc
