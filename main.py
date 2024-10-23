@@ -11,7 +11,7 @@ def main():
     file_name = os.getenv("FILE_NAME")
 
     # TODO: try-except logic here?
-
+    
     extractor = etl_process.PremierLeagueAPIExtractor(teams_url, api_key)
     data = etl_process.PremierLeagueAPIExtractor.extract(extractor)
 

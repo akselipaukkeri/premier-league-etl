@@ -27,5 +27,5 @@ def players_per_nationality():
     fig.update_traces(texttemplate="%{y}", textposition="outside")
 
     fig.update_layout(height=200, margin=dict(l=10, r=10, t=25, b=20))
-    # fig.show()
+    
     fig.write_html("Players_per_Country.html")

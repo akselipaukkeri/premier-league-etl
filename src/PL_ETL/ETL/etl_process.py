@@ -66,3 +66,4 @@ class CSVLoader:
 
         except Exception as e:
             logging.error("Failed to produce CSV file: " + str(e))
+            raise
