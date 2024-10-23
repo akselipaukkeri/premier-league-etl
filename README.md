@@ -13,6 +13,8 @@ This project follows an ETL structure:
 - **Transformer**: Processes and cleans the extracted data.
 - **Loader**: Saves the cleaned data into a CSV file.
 
+In addition, it provides sample data analysis for further development.
+
 ## Features
 
 - Extracts team and player data from the Premier League API.
@@ -32,8 +34,8 @@ Make sure you have the following installed:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/akselipaukkeri/premier-league-data-analysis.git
-    cd premier-league-data-analysis
+    git clone https://github.com/akselipaukkeri/premier-league-etl.git
+    cd premier-league-etl
     ```
 
 2. **Create and activate the virtual environment**:
