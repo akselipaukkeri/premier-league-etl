@@ -74,7 +74,7 @@ Create a `.env` file in the root directory of the project with the following con
 ```plaintext
 API_KEY=your_api_key
 TEAMS_URL='https://api.football-data.org/v4/competitions/PL/teams' 
-FILE_NAME=premier_league_data.csv
+FILE_NAME='premier_league_data.csv'
 ```
 
 5. **Run unit tests**:
