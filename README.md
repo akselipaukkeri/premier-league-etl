@@ -69,7 +69,7 @@ The project requires certain environment variables to be set in a `.env` file fo
 
 **Example `.env` file**
 
-Create a `.env` file in the root directory of the project with the following content:
+Create a `.env` file in the root directory of the project with the following content (replace API_KEY):
 
 ```plaintext
 API_KEY=your_api_key

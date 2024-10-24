@@ -50,19 +50,20 @@ class PremierLeagueTransformer:
             df = df[["name", "position", "team", "dateOfBirth", "nationality"]]
         except KeyError as e:
             logging.error("KeyError, not found following: " + str(e))
+            
 
         return df
 
 
 class CSVLoader:
-    def __init__(self, file_path: str, data: pd.DataFrame):
-        self.file_path = file_path
+    def __init__(self, file_name: str, data: pd.DataFrame):
+        self.file_name = file_name
         self.data = data
 
     def load(self):
         try:
-            self.data.to_csv(self.file_path, index=False)
-            logging.info(f"File loaded to root with name: {self.file_path}")
+            self.data.to_csv(self.file_name, index=False)
+            logging.info(f"File loaded to root with name: {self.file_name}")
 
         except Exception as e:
             logging.error("Failed to produce CSV file: " + str(e))

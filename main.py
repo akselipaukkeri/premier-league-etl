@@ -5,6 +5,9 @@ import logging
 
 
 def main():
+
+    logging.info("Starting ETL process")
+    
     load_dotenv()
     api_key = os.getenv("API_KEY")
     teams_url = os.getenv("TEAMS_URL")
